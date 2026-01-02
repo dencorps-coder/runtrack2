@@ -9,144 +9,144 @@
 
 /* Style du corps de la page */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* J'utilise plusieurs polices au cas où */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Plusieurs polices au cas où */
     background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); /* Dégradé rose vers rouge */
-    color: #333; /* Couleur du texte */
-    line-height: 1.6; /* Espacement entre les lignes */
-    min-height: 100vh; /* La page fait au moins la hauteur de l'écran */
+    color: #333;
+    line-height: 1.6;
+    min-height: 100vh; /* La page fait au moins toute la hauteur de l'écran */
 }
 
 /* Style de l'en-tête */
 #en-tete {
-    background-color: rgba(255, 255, 255, 0.95); /* Fond blanc presque opaque */
-    padding: 40px; /* Espace à l'intérieur */
-    text-align: center; /* Texte centré */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Ombre assez forte */
-    margin-bottom: 30px; /* Espace en dessous */
+    background-color: rgba(255, 255, 255, 0.95); /* Blanc avec transparence */
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
 }
 
 /* Style du nom complet */
 .nom-complet {
-    font-size: 3em; /* Très grande taille */
-    color: #f5576c; /* Couleur rose/rouge */
-    margin-bottom: 10px; /* Espace en dessous */
+    font-size: 3em;
+    color: #f5576c;
+    margin-bottom: 10px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Ombre sur le texte */
 }
 
 /* Style du titre professionnel */
 .titre-professionnel {
-    font-size: 1.5em; /* Taille assez grande */
-    color: #666; /* Couleur grise */
+    font-size: 1.5em;
+    color: #666;
     font-weight: 300; /* Texte fin (pas gras) */
 }
 
 /* Style du contenu principal */
 #corps-principal {
-    max-width: 900px; /* Largeur maximum */
+    max-width: 900px;
     margin: 0 auto; /* Centré */
-    padding: 20px; /* Espace à l'intérieur */
+    padding: 20px;
 }
 
 /* Style de chaque bloc section */
 .bloc-section {
-    background-color: rgba(255, 255, 255, 0.95); /* Fond blanc presque opaque */
-    margin-bottom: 25px; /* Espace en dessous */
-    padding: 30px; /* Espace à l'intérieur */
-    border-radius: 20px; /* Coins bien arrondis */
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15); /* Ombre */
+    background-color: rgba(255, 255, 255, 0.95); /* Blanc avec transparence */
+    margin-bottom: 25px;
+    padding: 30px;
+    border-radius: 20px; /* Coins arrondis */
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
 }
 
 /* Style des titres de bloc */
 .titre-bloc {
-    color: #f5576c; /* Couleur rose/rouge */
-    font-size: 2em; /* Grande taille */
-    margin-bottom: 20px; /* Espace en dessous */
-    padding-bottom: 10px; /* Espace avant la ligne */
+    color: #f5576c;
+    font-size: 2em;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
     border-bottom: 3px solid #f093fb; /* Ligne rose en dessous */
 }
 
 /* Style du texte de description */
 .texte-description {
-    font-size: 1.1em; /* Taille un peu plus grande */
-    line-height: 1.8; /* Espacement entre les lignes */
+    font-size: 1.1em;
+    line-height: 1.8;
     text-align: justify; /* Texte justifié */
 }
 
 /* Style des items d'expérience et formation */
 .item-experience, .item-formation {
-    margin-bottom: 20px; /* Espace en dessous */
-    padding: 15px; /* Espace à l'intérieur */
-    background-color: #f8f9fa; /* Fond gris très clair */
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f8f9fa;
     border-radius: 10px; /* Coins arrondis */
     border-left: 5px solid #f5576c; /* Ligne rose à gauche */
 }
 
 /* Style des titres de poste et diplôme */
 .titre-poste, .titre-diplome {
-    color: #f5576c; /* Couleur rose/rouge */
-    font-size: 1.4em; /* Taille assez grande */
-    margin-bottom: 8px; /* Espace en dessous */
+    color: #f5576c;
+    font-size: 1.4em;
+    margin-bottom: 8px;
 }
 
 /* Style du nom d'entreprise et école */
 .nom-entreprise, .nom-ecole {
-    color: #666; /* Couleur grise */
-    font-style: italic; /* En italique */
-    margin-bottom: 10px; /* Espace en dessous */
+    color: #666;
+    font-style: italic;
+    margin-bottom: 10px;
 }
 
 /* Style de la description du poste */
 .description-poste {
-    color: #333; /* Couleur du texte */
-    line-height: 1.7; /* Espacement entre les lignes */
+    color: #333;
+    line-height: 1.7;
 }
 
 /* Style de la liste */
 .liste-items {
     list-style: none; /* J'enlève les puces */
-    padding: 0; /* Pas d'espace à gauche */
+    padding: 0;
 }
 
 /* Style de chaque élément de la liste */
 .item-liste {
     background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); /* Dégradé rose */
-    color: white; /* Texte blanc */
-    padding: 12px 25px; /* Espace autour */
-    margin-bottom: 12px; /* Espace en dessous */
+    color: white;
+    padding: 12px 25px;
+    margin-bottom: 12px;
     border-radius: 25px; /* Coins très arrondis (forme de capsule) */
-    font-weight: bold; /* Texte en gras */
+    font-weight: bold;
     display: inline-block; /* Pour que plusieurs éléments soient sur la même ligne */
-    margin-right: 10px; /* Espace à droite */
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2); /* Ombre */
-    transition: all 0.3s ease; /* Animation douce */
+    margin-right: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease; /* Animation */
 }
 
 /* Quand on survole un élément */
 .item-liste:hover {
     transform: translateY(-3px) scale(1.05); /* L'élément monte et grandit */
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Ombre plus forte */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 /* Style des infos de contact */
 .info-contact {
-    font-size: 1.2em; /* Taille un peu plus grande */
-    margin: 12px 0; /* Espace en haut et en bas */
-    color: #333; /* Couleur du texte */
-    padding: 8px; /* Espace autour */
+    font-size: 1.2em;
+    margin: 12px 0;
+    color: #333;
+    padding: 8px;
 }
 
 /* Style du pied de page */
 #pied {
-    background-color: rgba(255, 255, 255, 0.95); /* Fond blanc presque opaque */
-    text-align: center; /* Texte centré */
-    padding: 20px; /* Espace à l'intérieur */
-    margin-top: 30px; /* Espace en haut */
+    background-color: rgba(255, 255, 255, 0.95); /* Blanc avec transparence */
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
     border-radius: 10px; /* Coins arrondis */
 }
 
 /* Style du texte du pied */
 .texte-pied {
-    color: #666; /* Couleur grise */
-    font-size: 0.9em; /* Taille un peu plus petite */
+    color: #666;
+    font-size: 0.9em;
 }
 
