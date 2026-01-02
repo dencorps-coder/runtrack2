@@ -3,12 +3,12 @@
 // Fonction pour afficher ou masquer l'article
 function showhide() {
     // Je cherche si l'article existe déjà dans la page
-    var article = document.getElementById("citation");
+    const article = document.getElementById("citation");
     
     // Si l'article n'existe pas, je le crée et je l'ajoute
     if (article == null) {
         // Je crée un nouvel élément article
-        var nouvelArticle = document.createElement("article");
+        const nouvelArticle = document.createElement("article");
         
         // Je lui donne l'id "citation"
         nouvelArticle.id = "citation";
@@ -26,7 +26,7 @@ function showhide() {
 }
 
 // Je récupère le bouton avec l'id "button"
-var bouton = document.getElementById("button");
+const bouton = document.getElementById("button");
 
 // Quand on clique sur le bouton, j'appelle la fonction showhide
 bouton.addEventListener("click", showhide);
