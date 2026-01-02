@@ -1,0 +1,201 @@
+/* Feuille de style 2 - Style minimaliste et élégant */
+
+/* Je reset tous les éléments pour enlever les marges et paddings par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style du corps de la page */
+body {
+    font-family: 'Georgia', serif; /* J'utilise la police Georgia */
+    background-color: #f5f5f5; /* Fond gris clair */
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px); /* Motif de lignes en diagonale */
+    color: #2c3e50; /* Couleur du texte */
+    line-height: 1.8; /* Espacement entre les lignes */
+    min-height: 100vh; /* La page fait au moins la hauteur de l'écran */
+}
+
+/* Style de l'en-tête */
+#header {
+    background-color: #2c3e50; /* Fond bleu foncé */
+    color: white; /* Texte blanc */
+    padding: 40px 20px; /* Espace à l'intérieur */
+    text-align: center; /* Texte centré */
+    border-bottom: 5px solid #3498db; /* Ligne bleue en dessous */
+}
+
+/* Style du titre principal */
+.titre-principal {
+    font-size: 3em; /* Très grande taille */
+    margin-bottom: 15px; /* Espace en dessous */
+    letter-spacing: 2px; /* Espace entre les lettres */
+    text-transform: uppercase; /* Texte en majuscules */
+}
+
+/* Style du sous-titre */
+.sous-titre {
+    font-size: 1.3em; /* Taille un peu plus grande */
+    color: #ecf0f1; /* Couleur gris très clair */
+    font-weight: 300; /* Texte fin (pas gras) */
+}
+
+/* Style de la navigation */
+#navigation {
+    background-color: #34495e; /* Fond bleu gris foncé */
+    padding: 0; /* Pas d'espace à l'intérieur */
+    margin-bottom: 40px; /* Espace en dessous */
+}
+
+/* Style de la liste du menu */
+.menu {
+    list-style: none; /* J'enlève les puces */
+    display: flex; /* Je mets en ligne */
+    justify-content: center; /* Je centre */
+}
+
+/* Style de chaque élément du menu */
+.menu li {
+    float: left; /* Je mets à gauche (ancienne méthode, mais ça fonctionne) */
+}
+
+/* Style des liens de navigation */
+.lien-nav {
+    text-decoration: none; /* J'enlève le soulignement */
+    color: white; /* Texte blanc */
+    display: block; /* Je mets en bloc */
+    padding: 20px 30px; /* Espace autour */
+    transition: background-color 0.3s ease; /* Animation douce */
+    border-right: 1px solid #2c3e50; /* Ligne à droite */
+}
+
+/* Quand on survole un lien */
+.lien-nav:hover {
+    background-color: #3498db; /* Fond bleu */
+}
+
+/* Style du contenu principal */
+#contenu-principal {
+    max-width: 1000px; /* Largeur maximum */
+    margin: 0 auto; /* Centré */
+    padding: 20px; /* Espace à l'intérieur */
+}
+
+/* Style de chaque section */
+.section {
+    background-color: white; /* Fond blanc */
+    margin-bottom: 40px; /* Espace en dessous */
+    padding: 40px; /* Espace à l'intérieur */
+    border-left: 5px solid #3498db; /* Ligne bleue à gauche */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+/* Style des titres de section */
+.titre-section {
+    color: #2c3e50; /* Couleur bleu foncé */
+    font-size: 2.2em; /* Grande taille */
+    margin-bottom: 25px; /* Espace en dessous */
+    font-weight: normal; /* Pas gras */
+    text-align: left; /* Aligné à gauche */
+}
+
+/* Style du contenu texte */
+.contenu-texte {
+    font-size: 1.1em; /* Taille un peu plus grande */
+    text-align: justify; /* Texte justifié (aligné des deux côtés) */
+}
+
+/* Style des paragraphes */
+.contenu-texte p {
+    margin-bottom: 20px; /* Espace entre les paragraphes */
+}
+
+/* Style de la grille des membres (avec grid) */
+.grille-membres {
+    display: grid; /* Je utilise grid pour faire une grille */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Colonnes qui s'adaptent */
+    gap: 25px; /* Espace entre les cartes */
+    margin-top: 20px; /* Espace en haut */
+}
+
+/* Style de chaque carte membre */
+.carte-membre {
+    background-color: #ecf0f1; /* Fond gris très clair */
+    padding: 30px; /* Espace à l'intérieur */
+    border: 2px solid #bdc3c7; /* Bordure grise */
+    text-align: center; /* Texte centré */
+    transition: all 0.3s ease; /* Animation douce */
+}
+
+/* Quand on survole une carte */
+.carte-membre:hover {
+    border-color: #3498db; /* Bordure bleue */
+    background-color: #d5dbdb; /* Fond gris un peu plus foncé */
+    box-shadow: 0 5px 15px rgba(52, 152, 219, 0.3); /* Ombre bleue */
+}
+
+/* Style du nom du membre */
+.nom-membre {
+    color: #2c3e50; /* Couleur bleu foncé */
+    font-size: 1.5em; /* Grande taille */
+    margin-bottom: 15px; /* Espace en dessous */
+    font-weight: bold; /* En gras */
+}
+
+/* Style du rôle */
+.role-membre {
+    color: #7f8c8d; /* Couleur grise */
+    font-size: 1.1em; /* Taille un peu plus grande */
+}
+
+/* Style de la liste des compétences */
+.liste-competences {
+    list-style: none; /* J'enlève les puces */
+    padding-left: 0; /* Pas d'espace à gauche */
+}
+
+/* Style de chaque compétence */
+.item-competence {
+    background-color: #34495e; /* Fond bleu gris foncé */
+    color: white; /* Texte blanc */
+    padding: 15px 25px; /* Espace autour */
+    margin-bottom: 15px; /* Espace en dessous */
+    border-left: 4px solid #3498db; /* Ligne bleue à gauche */
+    transition: all 0.3s ease; /* Animation douce */
+}
+
+/* Quand on survole une compétence */
+.item-competence:hover {
+    padding-left: 35px; /* Espace à gauche augmente (ça décale) */
+    background-color: #2c3e50; /* Fond plus foncé */
+}
+
+/* Style de la zone de contact */
+.info-contact {
+    text-align: center; /* Texte centré */
+    padding: 20px; /* Espace à l'intérieur */
+}
+
+/* Style du texte de contact */
+.texte-contact {
+    font-size: 1.3em; /* Taille assez grande */
+    margin: 15px 0; /* Espace en haut et en bas */
+    color: #2c3e50; /* Couleur bleu foncé */
+}
+
+/* Style du pied de page */
+#pied-page {
+    background-color: #2c3e50; /* Fond bleu foncé */
+    color: white; /* Texte blanc */
+    text-align: center; /* Texte centré */
+    padding: 30px; /* Espace à l'intérieur */
+    margin-top: 50px; /* Espace en haut */
+}
+
+/* Style du texte du footer */
+.texte-footer {
+    font-size: 1em; /* Taille normale */
+    color: #ecf0f1; /* Couleur gris très clair */
+}
+

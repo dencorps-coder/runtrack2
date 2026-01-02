@@ -1,0 +1,145 @@
+/* Feuille de style 1 - Style tech moderne */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', monospace;
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    color: #e0e0e0;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+#en-tete {
+    background-color: rgba(30, 30, 30, 0.95);
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    border-bottom: 4px solid #00ff88;
+    margin-bottom: 30px;
+}
+
+.nom-complet {
+    font-size: 3em;
+    color: #00ff88;
+    margin-bottom: 10px;
+    text-shadow: 0 0 10px rgba(0, 255, 136, 0.5);
+    font-weight: bold;
+}
+
+.titre-professionnel {
+    font-size: 1.4em;
+    color: #b0b0b0;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+#corps-principal {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.bloc-section {
+    background-color: rgba(30, 30, 30, 0.95);
+    margin-bottom: 25px;
+    padding: 30px;
+    border-radius: 5px;
+    border: 2px solid #00ff88;
+    box-shadow: 0 0 20px rgba(0, 255, 136, 0.3);
+}
+
+.titre-bloc {
+    color: #00ff88;
+    font-size: 2em;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #00ff88;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.texte-description {
+    font-size: 1.1em;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.item-experience, .item-formation {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: rgba(0, 255, 136, 0.1);
+    border-left: 4px solid #00ff88;
+    border-radius: 3px;
+}
+
+.titre-poste, .titre-diplome {
+    color: #00ff88;
+    font-size: 1.4em;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.nom-entreprise, .nom-ecole {
+    color: #b0b0b0;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.description-poste {
+    color: #e0e0e0;
+    line-height: 1.7;
+}
+
+.liste-items {
+    list-style: none;
+    padding: 0;
+}
+
+.item-liste {
+    background-color: #00ff88;
+    color: #1e1e1e;
+    padding: 12px 25px;
+    margin-bottom: 12px;
+    border-radius: 3px;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 136, 0.5);
+    transition: all 0.3s ease;
+    font-family: 'Courier New', monospace;
+}
+
+.item-liste:hover {
+    background-color: #1e1e1e;
+    color: #00ff88;
+    border: 2px solid #00ff88;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 255, 136, 0.8);
+}
+
+.info-contact {
+    font-size: 1.2em;
+    margin: 12px 0;
+    color: #e0e0e0;
+    padding: 8px;
+    font-family: 'Courier New', monospace;
+}
+
+#pied {
+    background-color: rgba(30, 30, 30, 0.95);
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    border-top: 4px solid #00ff88;
+}
+
+.texte-pied {
+    color: #b0b0b0;
+    font-size: 0.9em;
+}
+

@@ -1,0 +1,152 @@
+/* Feuille de style 2 - Style épuré et moderne */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    background-color: #fafafa;
+    background-image: 
+        radial-gradient(circle at 20% 50%, rgba(120, 119, 198, 0.05) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(255, 119, 198, 0.05) 0%, transparent 50%);
+    color: #1a1a1a;
+    line-height: 1.75;
+    min-height: 100vh;
+}
+
+#en-tete {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 55px 45px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(102, 126, 234, 0.3);
+}
+
+.nom-complet {
+    font-size: 4em;
+    margin-bottom: 18px;
+    font-weight: 300;
+    letter-spacing: 4px;
+}
+
+.titre-professionnel {
+    font-size: 1.5em;
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+
+#corps-principal {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 50px 30px;
+}
+
+.bloc-section {
+    background-color: white;
+    margin-bottom: 35px;
+    padding: 45px;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+    border: 1px solid #e8e8e8;
+}
+
+.titre-bloc {
+    color: #667eea;
+    font-size: 1.8em;
+    margin-bottom: 28px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #f0f0f0;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.texte-description {
+    font-size: 1.1em;
+    text-align: justify;
+    line-height: 2;
+    color: #4a4a4a;
+}
+
+.item-experience, .item-formation {
+    margin-bottom: 26px;
+    padding: 24px;
+    background-color: #fafafa;
+    border-radius: 6px;
+    border-left: 4px solid #667eea;
+}
+
+.titre-poste, .titre-diplome {
+    color: #1a1a1a;
+    font-size: 1.35em;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.nom-entreprise, .nom-ecole {
+    color: #8a8a8a;
+    font-style: italic;
+    margin-bottom: 14px;
+    font-size: 1.05em;
+}
+
+.description-poste {
+    color: #4a4a4a;
+    line-height: 1.9;
+}
+
+.liste-items {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.item-liste {
+    background-color: #f0f0f0;
+    color: #667eea;
+    padding: 12px 24px;
+    border-radius: 6px;
+    border: 2px solid #e0e0e0;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    font-size: 1.05em;
+}
+
+.item-liste:hover {
+    background-color: #667eea;
+    color: white;
+    border-color: #667eea;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+}
+
+.info-contact {
+    font-size: 1.15em;
+    margin: 16px 0;
+    color: #1a1a1a;
+    padding: 14px;
+    background-color: #fafafa;
+    border-radius: 6px;
+    border-left: 4px solid #667eea;
+}
+
+#pied {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    text-align: center;
+    padding: 35px;
+    margin-top: 50px;
+}
+
+.texte-pied {
+    font-size: 0.95em;
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+

@@ -1,0 +1,155 @@
+/* Feuille de style 1 - Style doux et pastel */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Comic Sans MS', 'Trebuchet MS', sans-serif;
+    background: linear-gradient(135deg, #ffeaa7 0%, #fab1a0 50%, #fd79a8 100%);
+    color: #2d3436;
+    line-height: 1.7;
+    min-height: 100vh;
+}
+
+#en-tete {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+    margin-bottom: 35px;
+    border-radius: 25px;
+}
+
+.nom-complet {
+    font-size: 3.3em;
+    color: #fd79a8;
+    margin-bottom: 12px;
+    text-shadow: 2px 2px 4px rgba(253, 121, 168, 0.3);
+    font-weight: bold;
+}
+
+.titre-professionnel {
+    font-size: 1.5em;
+    color: #fab1a0;
+    font-weight: 600;
+}
+
+#corps-principal {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+.bloc-section {
+    background-color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 28px;
+    padding: 32px;
+    border-radius: 30px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+    border: 3px dashed #fab1a0;
+}
+
+.titre-bloc {
+    color: #fd79a8;
+    font-size: 2.1em;
+    margin-bottom: 22px;
+    padding-bottom: 12px;
+    border-bottom: 4px dotted #fab1a0;
+    font-weight: bold;
+}
+
+.texte-description {
+    font-size: 1.12em;
+    line-height: 1.9;
+    text-align: justify;
+    color: #2d3436;
+}
+
+.item-experience, .item-formation {
+    margin-bottom: 22px;
+    padding: 22px;
+    background: linear-gradient(135deg, #ffeaa7 0%, #fdcb6e 100%);
+    border-radius: 20px;
+    border-left: 5px solid #fd79a8;
+    transition: all 0.3s ease;
+}
+
+.item-experience:hover, .item-formation:hover {
+    transform: rotate(1deg) scale(1.02);
+    box-shadow: 0 8px 25px rgba(253, 121, 168, 0.3);
+}
+
+.titre-poste, .titre-diplome {
+    color: #fd79a8;
+    font-size: 1.45em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.nom-entreprise, .nom-ecole {
+    color: #636e72;
+    font-style: italic;
+    margin-bottom: 12px;
+    font-size: 1.08em;
+}
+
+.description-poste {
+    color: #2d3436;
+    line-height: 1.8;
+}
+
+.liste-items {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.item-liste {
+    background: linear-gradient(135deg, #fd79a8 0%, #fab1a0 100%);
+    color: white;
+    padding: 13px 26px;
+    border-radius: 35px;
+    font-weight: bold;
+    box-shadow: 0 4px 12px rgba(253, 121, 168, 0.4);
+    transition: all 0.3s ease;
+    font-size: 1.08em;
+}
+
+.item-liste:hover {
+    transform: translateY(-4px) scale(1.08);
+    box-shadow: 0 7px 20px rgba(253, 121, 168, 0.6);
+    background: linear-gradient(135deg, #fab1a0 0%, #ffeaa7 100%);
+    color: #2d3436;
+}
+
+.info-contact {
+    font-size: 1.22em;
+    margin: 14px 0;
+    color: #2d3436;
+    padding: 12px;
+    background-color: #ffeaa7;
+    border-radius: 15px;
+    border-left: 4px solid #fd79a8;
+    font-weight: 600;
+}
+
+#pied {
+    background-color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    padding: 25px;
+    margin-top: 35px;
+    border-radius: 25px;
+    border-top: 3px dashed #fab1a0;
+}
+
+.texte-pied {
+    color: #636e72;
+    font-size: 0.95em;
+    font-weight: 600;
+}
+
