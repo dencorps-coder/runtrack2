@@ -1,0 +1,167 @@
+/* Feuille de style pour le site La Plateforme */
+
+/* Reset de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style du corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Style du header */
+header {
+    background-color: #FFD700; /* Jaune */
+    padding: 20px;
+}
+
+/* Style de la navigation */
+nav {
+    background-color: #FFD700;
+}
+
+nav ul {
+    list-style: none; /* J'enlève les puces */
+    display: flex; /* Flexbox pour mettre en ligne */
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+nav li a {
+    text-decoration: none; /* J'enlève le soulignement */
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+    transition: color 0.3s ease; /* Animation */
+}
+
+nav li a:hover {
+    color: #0066CC; /* Bleu au survol */
+}
+
+/* Style du main */
+main {
+    max-width: 1200px;
+    margin: 0 auto; /* Centré */
+    padding: 20px;
+}
+
+/* Style des sections */
+section {
+    margin-bottom: 40px;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 10px; /* Coins arrondis */
+}
+
+/* Style des articles */
+article {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    border-left: 4px solid #0066CC; /* Ligne bleue à gauche */
+}
+
+/* Style des titres */
+h1 {
+    color: #0066CC;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #0066CC;
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Style des paragraphes */
+p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Style du footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+/* Style des boutons */
+button, .bouton {
+    background-color: #0066CC;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin: 10px;
+    transition: background-color 0.3s ease; /* Animation */
+}
+
+button:hover, .bouton:hover {
+    background-color: #0052A3;
+}
+
+/* Style des images */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Style des vidéos */
+video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Style de l'aside */
+aside {
+    background-color: #e8f4f8;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+/* Style du formulaire de contact */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form textarea {
+    height: 150px;
+}
+
